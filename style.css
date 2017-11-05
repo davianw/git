@@ -1,0 +1,351 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;	
+}
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#bodyatas {
+	width:100%;
+	height:630px;
+	background-color: rgb(121, 183, 67);
+	background-image: linear-gradient(rgb(121, 183, 67), rgb(88, 178, 141));
+	overflow:hidden;
+}
+
+#logo {
+	width:200px;
+	position:absolute;
+	top:15px;
+	left:20px;
+}
+
+#wrapper {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+	
+}
+
+#wrapper #header {
+	/*background-color:#FFF;*/ /* BACKGROUND TEMPORARY*/
+	position:relative;
+	top:20px;
+	height:80px;	
+}
+#wrapper #header #menu {
+	width:580px;
+	/*background-color:#C9C;*/ /* BACKGROUND TEMPORARY*/
+	position:absolute;
+	top:15px;
+	left:270px;	
+	height:50px;
+}
+
+#wrapper #header #try {
+	position:absolute;
+	top:15px;
+	left:863px;
+	background-color:#09F; /* BACKGROUND TEMPORARY*/
+	width:125px;
+	height:50px;
+	text-align:center;
+	line-height:50px;	
+	font-size:11px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px; 
+	color:#FFF;
+	font-weight:bold;
+	-webkit-box-shadow: 3px 2px 5px 1px #666;
+	box-shadow: 3px 2px 5px 1px #666; 
+}
+
+#wrapper #header #menu ul {
+	list-style:none;
+	
+}
+
+#wrapper #header #menu ul li {
+	float:left;		
+	width:20%;
+	text-align:center;
+	line-height:50px;
+	font-size:11px;
+}
+
+#wrapper #header #menu ul li a {
+	text-decoration:none;	
+	color:#FFF;
+	font-weight:bold;
+}
+
+#wrapper #header #menu ul li a:hover {
+	color:#CCC;
+	display:block;
+	background-color:#060;	
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border-radius: 5px 5px 5px 5px; 
+}
+
+#wrapper #content {
+	background-image:url(images/low_contrast_linen.png);
+	width:1000px;
+	height:580px;
+	position:absolute;
+	top:120px;
+	-webkit-border-radius: 10px 10px 0px 0px;
+	border-radius: 10px 10px 0px 0px; 
+}
+
+#wrapper #content #contentkiri {
+	width:400px;
+	float:left;
+	padding:100px;
+	padding-top:190px;
+	-webkit-border-radius: 10px 0px 0px 0px;
+	border-radius: 10px 0px 0px 0px; 	
+}
+
+#wrapper #content #contentkiri h1,h4 {
+	color:#FFF;	
+}
+
+#wrapper #content #contentkiri h1 {
+	margin-bottom:30px;
+	font-size:38px;	
+}
+
+
+#content #contentkiri #slogan h4 {
+	color:#999;
+}	
+
+#buttonslogan p {
+	color:#FFF;
+	margin-top:30px;
+	font-weight:bold;
+	width:150px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background-color:#06F;	
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	-webkit-box-shadow: 3px 2px 5px 1px #333;
+	box-shadow: 3px 2px 5px 1px #333; 
+}
+
+#wrapper #content #contentkanan {
+	width:400px;	
+	float:left;
+	-webkit-border-radius: 0px 10px 0px 0px;
+	border-radius: 0px 10px 0px 0px; 
+}
+
+#wrapper #content #contentkanan img {
+	margin-top:120px;
+}
+
+#bodybawah {
+	width:100%;
+	height:800px;
+	background-image:url(images/gplaypattern.png);	
+}
+
+#wrapperbawah {
+	margin-left:auto;
+	margin-right:auto;	
+	overflow:hidden;
+	position:relative;
+}
+
+#bodybawah #wrapperbawah {
+	width:1000px;
+	height:800px;	
+}
+
+#wrapperbawah #contentbawah {
+	height:120px;
+	padding:30px;
+	font-size:12px;	
+	border:solid 0.2px #a19fa1;
+	background-color:#FFF;
+}
+
+#wrapperbawah #contentbawah h2 {
+	margin-bottom:15px;	
+}
+
+#wrapperbawah #contentleft {
+	width:280.5px;
+	float:left;	
+	text-align:center;
+	border-right:solid 0.2px #666;
+	height:120px;
+	padding-right:20px;
+	
+}
+#wrapperbawah #contentmid {
+	width:300.5px;
+	float:left;	
+	text-align:center;
+	height:120px;
+	border-right:solid 0.2px #666;
+	padding-right:20px;
+	padding-left:11px;
+	margin:0px 10px;
+	
+}
+
+#wrapperbawah #contentright {
+	width:270px;
+	float:right;	
+	text-align:center;
+	padding-right:-20px;
+}
+
+#mid #midkiri {
+	width:600px;
+	float:left;	
+	height:100%;
+}
+
+#mid #midkiri h1 {
+	padding-top:70px;
+	padding-left:45px;
+	font-size:20px;	
+}
+
+#mid #midkanan {
+	width:390px;
+	float:right;
+	height:100%;	
+}
+
+#mid #midkanan img {
+	margin-left:25px;
+	padding-left:40px;
+	margin-top:22px;	
+}
+
+#mid {
+	border:solid 0.5px #a19fa1;
+	height:215px;
+	background-color:#FFF;
+}
+
+#nametag {
+	font-weight:bold;
+	color:#444;
+	font-size:14px;
+	margin-left:110px;
+	margin-top:-20px;	
+}
+
+#nametag2 {
+	font-weight:bold;
+	color:#666;
+	font-size:13px;
+	margin-left:202px;
+	margin-top:-16px;	
+}
+
+#lower {
+	border:solid 0.5px #a19fa1;
+	height:198px;	
+	background-color:#FFF;
+}
+
+#iklankiri {
+	width:33%;
+	float:left;	
+	height:100%;
+}
+#iklankiri #client {
+	margin-left:20px;
+	margin-top:15px;
+	color:#666;
+}
+
+#iklankiri p {
+	text-align:center;
+	line-height:200px;
+}
+
+#iklantengah {
+	width:33%;
+	float:left;	
+	height:100%;
+}
+
+#iklantengah p {
+	text-align:center;
+	line-height:310px;	
+}
+
+#iklankanan {
+	width:33%;
+	float:right;	
+	height:100%;
+}
+
+#iklankanan p {
+	text-align:center;
+	line-height:220px;
+}
+
+#lower img {
+	width:130px;	
+}
+
+#footer {
+	height:200px; 	
+}
+
+#footer #footerleft {
+	width:700px;
+	float:left;
+}
+
+#footerleft hr {
+	margin-top:50px;
+	margin-bottom:-40px;	
+}
+
+#footerleft p {
+	font-weight:bold;
+	margin-left:5px;
+	color:#333;
+	font-size:12px;
+	margin-top:50px;
+	margin-bottom:5px;
+}
+
+#footerleft #aboutisi {
+	color:#888;
+	font-size:12px;
+	font-weight:normal;
+	margin-top:0px;
+}
+
+#footerright {
+	width:300px;
+	float:right;
+	height:100%;	
+}
+
+#footerright p {
+	text-align:left;
+	margin-top:80px;
+	margin-left:15px;
+	font-weight:bold;
+	font-size:18px;
+	color:#666;	
+	
+}
